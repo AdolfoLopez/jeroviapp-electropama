@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h3 {
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#container {
+  background: #e0e0e0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container form {
+  background: #ccc;
+  width: 500px;
+  padding: 10px;
+}
+
+#container form img {
+  margin: 15px auto;
+  text-align: center;
+  display: block;
+}
+
+#container form input {
+  width: 90%;
+  padding: 20px;
+  font-size: 16px;
+  display: block;
+  margin: 25px auto;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  text-align: center;
+}
+
+#container form input[type="submit"] {
+  cursor: pointer;
+}
+
+.alert {
+  text-align: center;
+  font-size: 16px;
+}

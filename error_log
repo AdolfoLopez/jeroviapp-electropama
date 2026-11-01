@@ -1,0 +1,30 @@
+[28-Sep-2026 22:41:31 America/Asuncion] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/electropamapy/public_html/conexion.php:9
+Stack trace:
+#0 /home/electropamapy/public_html/conexion.php(9): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'bdSystem_4')
+#1 /home/electropamapy/public_html/index.php(28): require_once('/home/electropa...')
+#2 {main}
+  thrown in /home/electropamapy/public_html/conexion.php on line 9
+[28-Sep-2026 22:43:15 America/Asuncion] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'electropamapy_database'@'localhost' to database 'electropama_database' in /home/electropamapy/public_html/conexion.php:9
+Stack trace:
+#0 /home/electropamapy/public_html/conexion.php(9): mysqli_connect('localhost', 'electropamapy_d...', Object(SensitiveParameterValue), 'electropama_dat...')
+#1 /home/electropamapy/public_html/index.php(28): require_once('/home/electropa...')
+#2 {main}
+  thrown in /home/electropamapy/public_html/conexion.php on line 9
+[28-Sep-2026 22:44:17 America/Asuncion] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'electropamapy_database'@'localhost' to database 'electropama_database' in /home/electropamapy/public_html/conexion.php:9
+Stack trace:
+#0 /home/electropamapy/public_html/conexion.php(9): mysqli_connect('localhost', 'electropamapy_d...', Object(SensitiveParameterValue), 'electropama_dat...')
+#1 /home/electropamapy/public_html/index.php(28): require_once('/home/electropa...')
+#2 {main}
+  thrown in /home/electropamapy/public_html/conexion.php on line 9
+[28-Sep-2026 22:45:07 America/Asuncion] PHP Fatal error:  Uncaught mysqli_sql_exception: php_network_getaddresses: getaddrinfo for electropamapy failed: Name or service not known in /home/electropamapy/public_html/conexion.php:9
+Stack trace:
+#0 /home/electropamapy/public_html/conexion.php(9): mysqli_connect('electropamapy', 'electropamapy_d...', Object(SensitiveParameterValue), 'electropama_dat...')
+#1 /home/electropamapy/public_html/index.php(28): require_once('/home/electropa...')
+#2 {main}
+  thrown in /home/electropamapy/public_html/conexion.php on line 9
+[28-Sep-2026 22:47:58 America/Asuncion] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'electropamapy_database'@'localhost' to database 'electropama_database' in /home/electropamapy/public_html/conexion.php:7
+Stack trace:
+#0 /home/electropamapy/public_html/conexion.php(7): mysqli_connect('localhost', 'electropamapy_d...', Object(SensitiveParameterValue), 'electropama_dat...')
+#1 /home/electropamapy/public_html/index.php(28): require_once('/home/electropa...')
+#2 {main}
+  thrown in /home/electropamapy/public_html/conexion.php on line 7

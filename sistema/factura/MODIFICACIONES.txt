@@ -1,0 +1,1 @@
+- Modificado la tabla clientes, campo ci_ruc a varchar(50). ALTER TABLE clientes CHANGE ci_ruc ci_ruc VARCHAR(50) NOT NULL;
